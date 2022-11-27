@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "colariu22"
-  }
+  },
+  "targets": {
+    "colariu22": {
+      "hosting": {
+        "colariu": [
+          "colariu22.web.app"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
