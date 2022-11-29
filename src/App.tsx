@@ -2,9 +2,15 @@ import React from 'react';
 import './App.css';
 
 function App() {
+
+  const onClick = () => {
+    console.log('PULA MEA');
+  }
+
   return (
     <React.Fragment>
-      <div className="App">
+      <div className="App"
+        onClick={() => onClick()}>
         HELLOOOOOOOOOOOOOOOOOOOOOOOoo
       </div>
       <div>
